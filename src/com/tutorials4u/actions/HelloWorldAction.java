@@ -18,6 +18,7 @@ public class HelloWorldAction extends Action {
 			throws Exception {
 		HelloWorldForm helloWorldForm = (HelloWorldForm) form;
 		helloWorldForm.setMessage("Hello World");
+		//comment
 		return mapping.findForward("success");
 	}
 }
